@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.9vmin;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hud {
+    display: none;
+    align-items: flex-end;
+    margin-bottom: 0.2em;
+    margin-left: 2em;
+    transition: 200ms ease-out;
+}
+
+.hud-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 3.25em;
+    height: 3.25em;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 0 1em;
+    box-shadow: 0 0 1.0em 0.1em rgb(0 0 0 / 50%);
+}
+
+.fill {
+    width: 100%;
+    height: 0%;
+    transition: 200ms ease-out;
+}
+
+i {
+    position: absolute;
+    align-self: center;
+    color: white;
+    font-size: 2.2em;
+    opacity: 0.502;
+    transition: 200ms ease-out;
+}
+
+.health {
+    background-color: #8d68e481;
+}
+
+.health .fill {
+    background-color: #6a35e5;
+}
+
+.armour {
+    background-color: #B0BEC580;
+}
+
+.armour .fill {
+    background-color: #546E7A;
+}
+
+.food {
+    background-color: #FFCC8080;
+}
+
+.food .fill {
+    background-color: #FB8C00;
+}
+
+.water {
+    background-color: #90CAF980;
+}
+
+.water .fill {
+    background-color: #1E88E5;
+}
+
+.voice {
+    background-color: #65e9c881;
+}
+
+.voice .fill {
+    background-color: #1ee5b3;
+}
